@@ -4,12 +4,16 @@
   color: #fff;
 }
 
+h1 {
+  text-align: center;
+}
+
 .sidebar{
   float: left;
   background-color: blue;
   text-align: left;
-  margin: right:15px;
   height: auto;
+  font-size: 18px;
 }
 
 #jack {
