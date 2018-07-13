@@ -14,6 +14,7 @@ $(document).ready(function(){
      if(i % 5 === 0) result +="pong";
    console.log(result);
 
+   $("p.display").empty()
    $("p.display").append(result+ "</br>");
   }
   });
