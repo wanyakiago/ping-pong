@@ -19,5 +19,16 @@ jQuery(document).ready(function(){
         }
         else {
             var num = '<li>'+i+'</li>';
+            $(".display").append(num);
+        }
+    }
   });
 });
+
+
+// var result="";
+// if (i % 3 !=0 && i % 5 !=0) result=(i);
+// if( i % 3 === 0) result="ping";
+// if(i % 5 === 0) result +="pong";
+// console.log(result);$("p.display").empty()
+// $("p.display").append(result+ "</br>");
