@@ -2,6 +2,7 @@
 
 
 $(document).ready(function(){
+jQuery(document).ready(function(){
   $("form#favourite").submit(function(event){
     event.preventDefault();
     var userInput = parseInt($("input#favNumber").val());
