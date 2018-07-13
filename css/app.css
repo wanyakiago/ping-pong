@@ -1,6 +1,5 @@
 .jumbotron {
   background-image: url("../img/mortal.jpg");
-  height: 300px;
   color: #fff;
   text-align: center;
 }
@@ -9,7 +8,7 @@ h1 {
   text-align: center;
 }
 
-.sidebar{
+.sidebar {
   float: left;
   background-color: blue;
   text-align: left;
