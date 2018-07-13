@@ -18,5 +18,17 @@ jQuery(document).ready(function(){
    $("p.display").empty()
    $("p.display").append(result+ "</br>");
   }
+    for (var i=1; i<=userInput; i++){
+        if (i % 15 === 0) {
+            $(".display").append('<li>pingpong</li>');
+        }
+        else if (i % 5 === 0) {
+            $(".display").append('<li>pong</li>');
+        }
+        else if (i % 3 === 0) {
+            $(".display").append('<li>ping</li>');
+        }
+        else {
+            var num = '<li>'+i+'</li>';
   });
 });
