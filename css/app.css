@@ -1,10 +1,6 @@
 .jumbotron {
   background-image: url("../img/mortal.jpg");
-  font-weight: 400;
-  text-align: center;
-  line-height: 1.5px;
-  padding: 5em 0;
-  height: 100px;
+  height: 300px;
   color: #fff;
 }
 
