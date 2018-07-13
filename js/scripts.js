@@ -13,3 +13,8 @@ $(document).ready(function(){
   if( i % 3 === 0) result="ping";
      if(i % 5 === 0) result +="pong";
    console.log(result);
+
+   $("p.display").append(result+ "</br>");
+  }
+  });
+});
