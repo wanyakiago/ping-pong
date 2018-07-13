@@ -23,5 +23,9 @@ h1 {
 #boxing {
   size : 50px;
   
+  size: 50px;
+}
 
+.forground-img {
+  height: 120px;
 }
