@@ -27,3 +27,18 @@ h1 {
 .forground-img {
   height: 120px;
 }
+
+#li {
+  color :green;
+  font-style: italic;
+}
+
+#tap {
+  color : blue;
+  font-style: oblique;
+}
+
+#jungle {
+  font-weight: 400;
+  color: red;
+}
